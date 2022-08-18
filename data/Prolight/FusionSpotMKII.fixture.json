@@ -62,7 +62,59 @@
         },
         {
             "name": "Shutter",
-            "type": "SHUTTER"
+            "type": "SHUTTER",
+            "bounds": [
+                {
+                    "name": "Close",
+                    "initial": 0,
+                    "final": 7
+                },
+                {
+                    "name": "Open",
+                    "initial": 8,
+                    "final": 15
+                },
+                {
+                    "name": "Strobe Slow->Fast",
+                    "initial": 16,
+                    "final": 131
+                },
+                {
+                    "name": "Open",
+                    "initial": 132,
+                    "final": 139
+                },
+                {
+                    "name": "Fast Close Slow Open",
+                    "initial": 140,
+                    "final": 181
+                },
+                {
+                    "name": "Open",
+                    "initial": 182,
+                    "final": 189
+                },
+                {
+                    "name": "Fast Open Slow Close",
+                    "initial": 190,
+                    "final": 231
+                },
+                {
+                    "name": "Open",
+                    "initial": 232,
+                    "final": 239
+                },
+                {
+                    "name": "Random Strobe",
+                    "initial": 240,
+                    "final": 247
+                },
+                {
+                    "name": "Open",
+                    "initial": 248,
+                    "final": 255
+                }
+            ]
         },
         {
             "name": "Pan/Tilt Speed",
