@@ -1,0 +1,19 @@
+{
+	"id": "fxtr-f0a6cec1-0dd9-416f-8a2c-f64c29c1333c",
+	"brand": "brnd-d03d589d-0723-437b-899e-e38b8376b0c7",
+	"name": "Dimmer",
+	"channels": [
+		{
+			"name": "Not A Known Category",
+			"type": "FOO"
+		}
+	],
+	"channelModes": [
+		{
+			"count": 1,
+			"channels": [
+				0
+			]
+		}
+	]
+}
