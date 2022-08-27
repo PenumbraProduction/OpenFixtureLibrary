@@ -297,52 +297,52 @@
             "type": "FUNCTION",
             "bounds": [
                 {
-                    "name:": "Null",
+                    "name": "Null",
                     "initial": 0,
                     "final": 69
                 },
                 {
-                    "name:": "Blackout while Pan/Tilt Move",
+                    "name": "Blackout while Pan/Tilt Move",
                     "initial": 70,
                     "final": 79
                 },
                 {
-                    "name:": "Null",
+                    "name": "Null",
                     "initial": 80,
                     "final": 89
                 },
                 {
-                    "name:": "Blackout when Color changes",
+                    "name": "Blackout when Color changes",
                     "initial": 90,
                     "final": 99
                 },
                 {
-                    "name:": "Null",
+                    "name": "Null",
                     "initial": 100,
                     "final": 109
                 },
                 {
-                    "name:": "Blackout when Gobo changes",
+                    "name": "Blackout when Gobo changes",
                     "initial": 110,
                     "final": 119
                 },
                 {
-                    "name:": "Null",
+                    "name": "Null",
                     "initial": 120,
                     "final": 199
                 },
                 {
-                    "name:": "Reset All",
+                    "name": "Reset All",
                     "initial": 200,
                     "final": 209
                 },
                 {
-                    "name:": "Null",
+                    "name": "Null",
                     "initial": 210,
                     "final": 249
                 },
                 {
-                    "name:": "Sound Active",
+                    "name": "Sound Active",
                     "initial": 250,
                     "final": 255
                 }
