@@ -110,6 +110,7 @@
             ]
         },
         {
+            "name": "RGBW",
             "count": 4,
             "channels": [
                 2,
@@ -119,6 +120,7 @@
             ]
         },
         {
+            "name": "RGBA",
             "count": 4,
             "channels": [
                 2,
