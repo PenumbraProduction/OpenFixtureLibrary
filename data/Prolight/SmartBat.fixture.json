@@ -1,0 +1,297 @@
+{
+    "id": "fxtr-53bc6d35-d86d-4901-9b59-5c0dd37ad088",
+    "brand": "brnd-1786f48d-ad95-4adb-b103-a0d361c66588",
+    "name": "Smart Bat",
+    "channels": [
+        {
+            "name": "Dimmer",
+            "type": "INTENSITY",
+            "range": {
+                "unit": "MAGNITUDE",
+                "initial": 0,
+                "final": 1
+            }
+        },
+        {
+            "name": "Red",
+            "type": "COLOUR-RED",
+            "range": {
+                "unit": "MAGNITUDE",
+                "initial": 0,
+                "final": 1
+            }
+        },
+        {
+            "name": "Green",
+            "type": "COLOUR-GREEN",
+            "range": {
+                "unit": "MAGNITUDE",
+                "initial": 0,
+                "final": 1
+            }
+        },
+        {
+            "name": "Blue",
+            "type": "COLOUR-BLUE",
+            "range": {
+                "unit": "MAGNITUDE",
+                "initial": 0,
+                "final": 1
+            }
+        },
+        {
+            "name": "White",
+            "type": "COLOUR-WHITE",
+            "range": {
+                "unit": "MAGNITUDE",
+                "initial": 0,
+                "final": 1
+            }
+        },
+        {
+            "name": "Colour Temperature",
+            "type": "FUNCTION",
+            "bounds": [
+                {
+                    "name": "No Function",
+                    "initial": 0,
+                    "final": 10
+                },
+                {
+                    "name": "R 100% G 0~100% B 0",
+                    "initial": 11,
+                    "final": 30
+                },
+                {
+                    "name": "R 100%~0 G 100% B 0",
+                    "initial": 31,
+                    "final": 50
+                },
+                {
+                    "name": "R 0 G 100% B 0~100%",
+                    "initial": 51,
+                    "final": 70
+                },
+                {
+                    "name": "R 0 G 100%~0 B 100%",
+                    "initial": 71,
+                    "final": 90
+                },
+                {
+                    "name": "R 0~100% G 0 B 100%",
+                    "initial": 91,
+                    "final": 110
+                },
+                {
+                    "name": "R 100% G 0 B 100%~0",
+                    "initial": 111,
+                    "final": 130
+                },
+                {
+                    "name": "R 100% G 0~100% B 0~100%",
+                    "initial": 131,
+                    "final": 150
+                },
+                {
+                    "name": "R 100%~0 G 100%~0 B 100%",
+                    "initial": 151,
+                    "final": 170
+                },
+                {
+                    "name": "R 100% G 100% B 100% W 100%",
+                    "initial": 171,
+                    "final": 200
+                },
+                {
+                    "name": "Color temperature 1",
+                    "initial": 201,
+                    "final": 205
+                },
+                {
+                    "name": "Color temperature 2",
+                    "initial": 206,
+                    "final": 210
+                },
+                {
+                    "name": "Color temperature 3",
+                    "initial": 211,
+                    "final": 215
+                },
+                {
+                    "name": "Color temperature 4",
+                    "initial": 216,
+                    "final": 220
+                },
+                {
+                    "name": "Color temperature 5",
+                    "initial": 221,
+                    "final": 225
+                },
+                {
+                    "name": "Color temperature 6",
+                    "initial": 226,
+                    "final": 230
+                },
+                {
+                    "name": "Color temperature 7",
+                    "initial": 231,
+                    "final": 235
+                },
+                {
+                    "name": "Color temperature 8",
+                    "initial": 236,
+                    "final": 240
+                },
+                {
+                    "name": "Color temperature 9",
+                    "initial": 241,
+                    "final": 245
+                },
+                {
+                    "name": "Color temperature 10",
+                    "initial": 246,
+                    "final": 250
+                },
+                {
+                    "name": "Color temperature 11",
+                    "initial": 251,
+                    "final": 255
+                }
+            ]
+        },
+        {
+            "name": "Strobe",
+            "type": "SHUTTER",
+            "bounds": [
+                {
+                    "name": "No Function",
+                    "initial": 0,
+                    "final": 10
+                },
+                {
+                    "name": "Strobe Slow -> Fast",
+                    "initial": 11,
+                    "final": 255,
+                    "range": {
+                        "unit": "MAGNITUDE",
+                        "initial": 0,
+                        "final": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Auto Programs",
+            "type": "FUNCTION",
+            "bounds": [
+                {
+                    "name": "No Function",
+                    "initial": 0,
+                    "final": 10
+                },
+                {
+                    "name": "Auto Program 1",
+                    "initial": 11,
+                    "final": 60
+                },
+                {
+                    "name": "Auto Program 2",
+                    "initial": 61,
+                    "final": 120
+                },
+                {
+                    "name": "Auto Program 3",
+                    "initial": 121,
+                    "final": 180
+                },
+                {
+                    "name": "Auto Program 4",
+                    "initial": 181,
+                    "final": 240
+                },
+                {
+                    "name": "Sound show",
+                    "initial": 241,
+                    "final": 255
+                }
+            ]
+        },
+        {
+            "name": "Auto Speed",
+            "type": "FUNCTION",
+            "range": {
+                "unit": "MAGNITUDE",
+                "initial": 0,
+                "final": 1
+            }
+        },
+        {
+            "name": "Dim Mode",
+            "type": "FUNCTION",
+            "bounds": [
+                {
+                    "name": "Preset dimmer speed from display menu",
+                    "initial": 0,
+                    "final": 51
+                },
+                {
+                    "name": "Dimmer speed mode off",
+                    "initial": 52,
+                    "final": 101
+                },
+                {
+                    "name": "Dimmer speed mode1 (fast speed)",
+                    "initial": 102,
+                    "final": 152
+                },
+                {
+                    "name": "Dimmer speed mode2 (middle speed)",
+                    "initial": 153,
+                    "final": 203
+                },
+                {
+                    "name": "Dimmer speed mode3 (slow speed)",
+                    "initial": 204,
+                    "final": 255
+                }
+            ]
+        }
+    ],
+    "channelModes": [
+        {
+            "count": 10,
+            "channels": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+            ]
+        },
+        {
+            "count": 6,
+            "channels": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                6
+            ]
+        },
+        {
+            "count": 4,
+            "channels": [
+                1,
+                2,
+                3,
+                4
+            ]
+        }
+    ]
+}
