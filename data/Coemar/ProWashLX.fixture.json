@@ -1,0 +1,373 @@
+{
+    "id": "fxtr-161be01d-2dc2-4c76-9bcd-cccc4b2a5f86",
+    "brand": "brnd-ce676622-c9ab-482a-835c-ace997111339",
+    "name": "Fusion Spot MKII",
+    "tags": [
+        "MOVER",
+        "WASH",
+        "COLOUR-SCROLLER"
+    ],
+    "channels": [
+        {
+            "name": "Pan",
+            "type": "POS-PAN",
+            "range": {
+                "unit": "ANGLE",
+                "initial": 0,
+                "final": 540
+            }
+        },
+        {
+            "name": "Fine Pan",
+            "type": "POS-PAN-FINE",
+            "range": {
+                "unit": "PERCENT",
+                "initial": 0,
+                "final": 100
+            }
+        },
+        {
+            "name": "Tilt",
+            "type": "POS-TILT",
+            "range": {
+                "unit": "ANGLE",
+                "initial": 0,
+                "final": 270
+            }
+        },
+        {
+            "name": "Fine Tilt",
+            "type": "POS-TILT-FINE",
+            "range": {
+                "unit": "PERCENT",
+                "initial": 0,
+                "final": 100
+            }
+        },
+        {
+            "name": "Pan/Tilt Speed",
+            "type": "FUNCTION",
+            "bounds": [
+                {
+                    "name": "Fast (Standard)",
+                    "initial": 0,
+                    "final": 10
+                },
+                {
+                    "name": "Ultra Fast (Programming)",
+                    "initial": 11,
+                    "final": 25
+                },
+                {
+                    "name": "Vector Mode (Fast->Slow)",
+                    "initial": 26,
+                    "final": 127
+                },
+                {
+                    "name": "Tracking Mode (Fast->Slow)",
+                    "initial": 128,
+                    "final": 247
+                },
+                {
+                    "name": "Tracking Mode (Slow)",
+                    "initial": 248,
+                    "final": 255
+                }
+            ]
+        },
+        {
+            "name": "Dimmer",
+            "type": "INTENSITY",
+            "bounds": [
+                {
+                    "name": "Closed",
+                    "initial": 0,
+                    "final": 7
+                },
+                {
+                    "name": "Dim 0->100%",
+                    "initial": 8,
+                    "final": 255,
+                    "range": {
+                        "unit": "MAGNITUDE",
+                        "initial": 0,
+                        "final": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Shutter / Strobe",
+            "type": "SHUTTER",
+            "bounds": [
+                {
+                    "name": "Closed",
+                    "initial": 0,
+                    "final": 9
+                },
+                {
+                    "name": "Synchro Strobe (Slow->Fast)",
+                    "initial": 10,
+                    "final": 66,
+                    "range": {
+                        "unit": "MAGNITUDE",
+                        "initial": 0,
+                        "final": 1
+                    }
+                },
+                {
+                    "name": "Open",
+                    "initial": 67,
+                    "final": 68
+                },
+                {
+                    "name": "Pulse Effect in Sequences Close Slow, Open Fast (Slow->Fast)",
+                    "initial": 69,
+                    "final": 125,
+                    "range": {
+                        "unit": "MAGNITUDE",
+                        "initial": 0,
+                        "final": 1
+                    }
+                },
+                {
+                    "name": "Open",
+                    "initial": 126,
+                    "final": 127
+                },
+                {
+                    "name": "Pulse Effect in Sequences Close Fast, Open Slow (Fast->Slow)",
+                    "initial": 128,
+                    "final": 184,
+                    "range": {
+                        "unit": "MAGNITUDE",
+                        "initial": 1,
+                        "final": 0
+                    }
+                },
+                {
+                    "name": "Open",
+                    "initial": 185,
+                    "final": 187
+                },
+                {
+                    "name": "Random Strobe (Slow->Fast)",
+                    "initial": 188,
+                    "final": 244,
+                    "range": {
+                        "unit": "MAGNITUDE",
+                        "initial": 0,
+                        "final": 1
+                    }
+                },
+                {
+                    "name": "Random Strobe (Slow->Fast)",
+                    "initial": 245,
+                    "final": 255
+                }
+            ]
+        },
+        {
+            "name": "Blackout While Moving",
+            "type": "FUNCTION",
+            "bounds": [
+                {
+                    "name": "No Effect",
+                    "initial": 0,
+                    "final": 249
+                },
+                {
+                    "name": "Blackout While Moving or Colour Change",
+                    "initial": 250,
+                    "final": 255
+                }
+            ]
+        },
+        {
+            "name": "Filter Selection",
+            "type": "FILTER",
+            "bounds": [
+                {
+                    "name": "Open (Standard Size)",
+                    "initial": 0,
+                    "final": 9
+                },
+                {
+                    "name": "Beam Shape (0->180)",
+                    "initial": 10,
+                    "final": 230,
+                    "range": {
+                        "unit": "ANGLE",
+                        "initial": 0,
+                        "final": 180
+                    }
+                },
+                {
+                    "name": "Wide Angle",
+                    "initial": 231,
+                    "final": 255
+                }
+            ]
+        },
+        {
+            "name": "Colour Wheel",
+            "type": "COLOUR-WHEEL",
+            "bounds": [
+                {
+                    "name": "Open White",
+                    "initial": 0,
+                    "final": 5
+                },
+                {
+                    "name": "Colour 1",
+                    "initial": 6,
+                    "final": 14
+                },
+                {
+                    "name": "Colour 2",
+                    "initial": 15,
+                    "final": 23
+                },
+                {
+                    "name": "Colour 3",
+                    "initial": 24,
+                    "final": 32
+                },
+                {
+                    "name": "Colour 4",
+                    "initial": 33,
+                    "final": 41
+                },
+                {
+                    "name": "Colour 5",
+                    "initial": 42,
+                    "final": 50
+                },
+                {
+                    "name": "Colour 6",
+                    "initial": 51,
+                    "final": 60
+                },
+                {
+                    "name": "Custom Colour Position (White->Colour 6)",
+                    "initial": 61,
+                    "final": 127,
+                    "range": {
+                        "unit": "MAGNITUDE",
+                        "initial": 0,
+                        "final": 1
+                    }
+                },
+                {
+                    "name": "Forwards Rotation (Fast->Slow)",
+                    "initial": 128,
+                    "final": 190,
+                    "range": {
+                        "unit": "MAGNITUDE",
+                        "initial": 1,
+                        "final": 0
+                    }
+                },
+                {
+                    "name": "Pause Rotation",
+                    "initial": 191,
+                    "final": 192
+                },
+                {
+                    "name": "Backwards Rotation (Slow->Fast)",
+                    "initial": 193,
+                    "final": 255,
+                    "range": {
+                        "unit": "MAGNITUDE",
+                        "initial": 0,
+                        "final": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Cyan",
+            "type": "COLOUR-CYAN",
+            "range": {
+                "unit": "MAGNITUDE",
+                "initial": 0,
+                "final": 1
+            }
+        },
+        {
+            "name": "Magenta",
+            "type": "COLOUR-MAGENTA",
+            "range": {
+                "unit": "MAGNITUDE",
+                "initial": 0,
+                "final": 1
+            }
+        },
+        {
+            "name": "Yellow",
+            "type": "COLOUR-YELLOW",
+            "range": {
+                "unit": "MAGNITUDE",
+                "initial": 0,
+                "final": 1
+            }
+        },
+        {
+            "name": "Lamp / Reset",
+            "type": "FUNCTION",
+            "bounds": [
+                {
+                    "name": "Lamp Off",
+                    "initial": 0,
+                    "final": 19
+                },
+                {
+                    "name": "No Effects (Idle)",
+                    "initial": 20,
+                    "final": 100
+                },
+                {
+                    "name": "Effects Reset (no pan/tilt move)",
+                    "initial": 101,
+                    "final": 170
+                },
+                {
+                    "name": "All Motor Reset",
+                    "initial": 171,
+                    "final": 200
+                },
+                {
+                    "name": "Silent Fans (Temperature Permitting)",
+                    "initial": 201,
+                    "final": 240
+                },
+                {
+                    "name": "Lamp On",
+                    "initial": 241,
+                    "final": 255
+                }
+            ]
+        }
+    ],
+    "channelModes": [
+        {
+            "count": 14,
+            "channels": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+            ]
+        }
+    ]
+}
