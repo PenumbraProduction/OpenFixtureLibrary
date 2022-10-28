@@ -161,7 +161,7 @@
                     }
                 },
                 {
-                    "name": "Random Strobe (Slow->Fast)",
+                    "name": "Open",
                     "initial": 245,
                     "final": 255
                 }
